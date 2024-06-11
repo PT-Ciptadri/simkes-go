@@ -19,7 +19,7 @@ func RouteInit(r *fiber.App) {
 	auth.Post("/Login", authcontroller.Login)
 
 	// SISWA //
-	siswa.Post("/Get", helpers.Middleware, siswacontroller.GetSiswa)
+	siswa.Post("/Get", siswacontroller.GetSiswa)
 	//siswa.Post("/", siswacontroller.PostSiswa)
 	//siswa.Put("/", siswacontroller.UpdateSiswa)
 	//siswa.Delete("/", siswacontroller.DeleteSiswa)
