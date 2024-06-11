@@ -11,7 +11,7 @@ var err error
 
 func ConnectDB() {
 	// refer https://github.com/go-sql-driver/mysql#dsn-data-source-name for details
-	const MYSQL_DSN = "root:@tcp(127.0.0.1:3306)/simkes?charset=utf8mb4&parseTime=True&loc=Local"
+	const MYSQL_DSN = "root:YmKPnFdhYOclualJVconwsLTinYgOivX@tcp(viaduct.proxy.rlwy.net:55455)/railway?charset=utf8mb4&parseTime=True&loc=Local"
 
 	DSN := MYSQL_DSN
 
