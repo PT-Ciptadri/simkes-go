@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: simkes-api
+  name: "simkes-api"
   # description: Sistem kesiswaan backend (API Go)
   # annotations:
   #   github.com/project-slug: PT-Ciptadri/simkes-go
