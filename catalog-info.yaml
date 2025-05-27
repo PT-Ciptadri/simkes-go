@@ -9,5 +9,3 @@ spec:
   type: website
   lifecycle: experimental
   owner: group:Backend
-  consumesApis:
-    - simkes
