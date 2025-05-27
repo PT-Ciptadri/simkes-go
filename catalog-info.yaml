@@ -9,3 +9,9 @@ spec:
   owner: group:Backend
   consumedBy:
     - component:default/login-page
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Simkes Go API
+      version: 1.0.0
+    paths: {}
