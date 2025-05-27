@@ -2,10 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: "simkes-go"
-  # description: Sistem kesiswaan backend (API Go)
-  # annotations:
-  #   github.com/project-slug: PT-Ciptadri/simkes-go
+  # description: Retrieve artist details
 spec:
-  type: website
+  type: openapi
   lifecycle: experimental
   owner: group:Backend
+  consumedBy:
+    - component:default/login-page
