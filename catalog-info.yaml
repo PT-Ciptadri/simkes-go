@@ -13,12 +13,15 @@ spec:
     openapi: 3.0.0
     info:
       license:
-        name: MIT
+        name: SKG
       title: Simkes Go API
       version: 1.0.0
     servers:
-      - url: http://artist.spotify.net/v1
+      - url: http://simkes.wandek.net/v1
     paths:
-      /artists:
+      /all:
         get:
-          summary: List all artists
+          summary: list all Kesiswaan
+      /create:
+        post:
+          summary: create Kesiswaan
