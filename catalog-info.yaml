@@ -12,6 +12,13 @@ spec:
   definition: |
     openapi: 3.0.0
     info:
+      license:
+        name: MIT
       title: Simkes Go API
       version: 1.0.0
-    paths: {}
+    servers:
+      - url: http://artist.spotify.net/v1
+    paths:
+      /artists:
+        get:
+          summary: List all artists
