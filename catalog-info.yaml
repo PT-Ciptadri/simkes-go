@@ -2,6 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: "simkes-go"
+  links:
+    - url: https://dashboard.example.com
+      title: My Dashboard
+      icon: dashboard
   # description: Retrieve artist details
 spec:
   type: openapi
